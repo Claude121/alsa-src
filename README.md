@@ -6,5 +6,4 @@
 ```
 2. make & make install
 
-### 
-2. 
+### alsa utils
