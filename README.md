@@ -1,4 +1,5 @@
 ## ALSA SRC
+alsautil -- > alsa_lib --> alsa_plugin(so)
 ### alsa lib
 1. congfiuration (arch, compiler, include_dir, config_dir, plugin_dir)
 ```
@@ -16,3 +17,5 @@
 to solve mv: cannot stat 't-ja.gmo': No such file or directory ...
 ```
 2. make & make install
+
+### alsa plugin
