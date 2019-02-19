@@ -3,7 +3,7 @@ alsautil -- > alsa_lib --> alsa_plugin(so)
 ### alsa lib
 1. congfiuration (arch, compiler, include_dir, config_dir, plugin_dir)
 ```
-./configure --host=arm-linux CC=arm-linux-gcc --enable-shared --disable-python --prefix=$PWD/alsa-install/ --with-configdir=$PWD/alsa-install/config --with-plugindir=$PWD/alsa-install/plugin
+./configure --host=arm-linux-gnueabihf CC=arm-linux-gnueabihf-gcc --enable-static=no --enable-shared=yes --disable-python --prefix=$PWD/alsa-install/ --with-configdir=$PWD/alsa-install/config --with-plugindir=$PWD/alsa-install/plugin
 ```
 2. make & make install
 
