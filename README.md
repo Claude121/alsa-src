@@ -10,7 +10,7 @@ alsautil -- > alsa_lib --> alsa_plugin(so)
 ### alsa utils
 1. configuration
 ```
-./configure --host=arm-linux CC=arm-linux-gcc --prefix=$PWD/alsa-install/ CFLAGS="-I$PWD/alsa-install/include" LDFLAGS="-L$PWD/alsa-install/lib -lasound" --disable-alsamixer --disable-xmlto --with-alsa-inc-prefix=$PWD/alsa-install/include --with-alsa-prefix=$PWD/alsa-install/lib --with-systemdsystemunitdir=$PWD/alsa-install/systemdsystemunit --with-udev-rules-dir=$PWD/alsa-install/udev_ruler --with-asound-state-dir=$PWD/alsa-install/asound_state
+./configure --host=arm-linux-gnueabihf CC=arm-linux-gnueabihf-gcc --prefix=$PWD/alsa-install/ CFLAGS="-I$PWD/alsa-install/include" LDFLAGS="-L$PWD/alsa-install/lib -lasound" --disable-alsamixer --disable-xmlto --with-alsa-inc-prefix=$PWD/alsa-install/include --with-alsa-prefix=$PWD/alsa-install/lib --with-systemdsystemunitdir=$PWD/alsa-install/systemdsystemunit --with-udev-rules-dir=$PWD/alsa-install/udev_ruler --with-asound-state-dir=$PWD/alsa-install/asound_state
 ```
 2. touch alsaconf/po/t-ja.gmo & touch alsaconf/po/ru.gmo
 ```
